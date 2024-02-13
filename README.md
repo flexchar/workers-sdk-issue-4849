@@ -1,3 +1,5 @@
+## Fixed by https://github.com/cloudflare/workers-sdk/issues/4849#issuecomment-1939021837
+
 A tiny reproducible for the https://github.com/cloudflare/workers-sdk/issues/4849 showing that Origin header is ignored/lost after `wrangler` upgrade to versions above (not inclusive) 3.24.0.
 
 The following collection of snippets will display the issue.
